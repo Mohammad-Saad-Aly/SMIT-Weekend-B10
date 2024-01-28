@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        .abc{
+            width: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="text-center mt-4">Todo Application</h1><br>
+    <div id="abc" class="row abc ">
+        <input type="text" class=" mb-4 form-control col-8 col-sm-8 col-md-8" name="" id="inp">
+            
+        <button class="col-5 m-auto btn btn-success" onclick="addTodo()">Add Todo</button>
+        <button onclick="delall()" class="col-5 m-auto btn btn-danger">Delete All</button>
+    </div>
+
+    <div class="row">
+        <ul class="col-12 text-center mt-4" id="getUl">
+
+        </ul>
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
